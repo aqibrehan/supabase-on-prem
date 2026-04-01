@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+*.egg-info/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker volumes (runtime data)
+supabase/docker/volumes/storage/
+supabase/docker/volumes/db/
+
+# Supabase cloned repo (not needed — only keep our docker config)
+supabase-docker/
+supabase/apps/
+supabase/examples/
+supabase/.github/
+supabase/packages/
+supabase/tests/
+supabase/i18n/
+supabase/supabase/
+supabase/*.md
+supabase/*.json
+supabase/*.yaml
+supabase/*.yml
+supabase/*.toml
+supabase/LICENSE
+supabase/DEVELOPERS.md
+supabase/SECURITY.md
+
+# Claude settings
+.claude/
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
